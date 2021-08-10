@@ -20,3 +20,20 @@ main {
     border: 1px solid;
     text-align: center;
 }
+
+main #personagens {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #personagens #card {
+    width: 205px;
+    border: 1px solid;
+}
+
+main #personagens img {
+    width: 100%;
+    height: 253px;
+    background-color: rgb(47, 47, 47);
+}
