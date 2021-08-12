@@ -7,6 +7,12 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    background-image: url(../img/bg/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 /*================= MAIN =================*/
@@ -16,9 +22,12 @@ main {
     max-width: 1050px;
     /* height: 447px; */
     margin: 20px auto ;
-    background-color: rgb(151, 148, 148);
-    border: 1px solid;
+    background-color: #0000006b;
+    /* border: 1px solid; */
     text-align: center;
+    color: white;
+    padding: 0.063rem;
+    backdrop-filter: blur(2px);
 }
 
 main h1 {
@@ -37,6 +46,8 @@ main p {
     max-width: 678px;
     margin: 2.938rem auto 0;
     font-size: 1.125rem;
+    line-height: 1.875rem;
+    letter-spacing: 0.125rem;
 }
 
 main a {
@@ -53,4 +64,17 @@ main a {
 main a h2 {
     font-size: 20px;
     margin: 0.438rem 0 0.313rem;
+}
+
+
+
+/*================= FOOTER =================*/
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    width: 90%;
+    max-width: 1050px;
+    margin: 0 auto ;
 }
