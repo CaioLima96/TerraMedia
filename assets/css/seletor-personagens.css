@@ -35,5 +35,6 @@ main #personagens #card {
 main #personagens img {
     width: 100%;
     height: 253px;
+    object-fit: cover;
     background-color: rgb(47, 47, 47);
 }
