@@ -5,7 +5,16 @@ function start () {
 
         if (personagemEscolhido == 1) {
 
-            return location = ('../terra-media/assets/fases/pequenalf-fase1.html');
+            return location = ('./assets/fases/pequenalf-fase1.html');
+
+        // } else if (personagemEscolhido == 2) {
+
+        //     return location = ('')
+
+        // } else if (personagemEscolhido == 3){
+
+        //     return location = ('')
+
         } else {
             alert('Opção invalida, escolha denovo')
         }

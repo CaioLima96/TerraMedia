@@ -154,12 +154,12 @@ main #personagens #cards #card #card-description p {
 
 main #personagens button {
     display: inline-block;
-    background-color: #3d3737;
+    background-color: #0000006b;
     border-radius: 3.438rem;
     /* width: 86px; */
     height: 40px;
     margin: 7rem 0 2.5rem;
-    color: black;
+    color: white;
     padding: 0.625rem;
     border: none;
     font-size: 1rem;
