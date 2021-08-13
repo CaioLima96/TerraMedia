@@ -7,41 +7,73 @@
     font-family: 'Roboto', sans-serif;
 }
 
-html {
+/* html {
     background-image: url(../img/bg/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 
 
 /*================= MAIN =================*/
 
-main {
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+header p {
+    font-size: 1.438rem;
+}
+
+
+/*================= MAIN =================*/
+
+/* main {
+    width: 100%;
+} */
+
+main #intro {
+    width: 100%;
+    /* height: 560px; */
+    background-image: url(../img/bg/bg-1.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 2.5rem 0;
+}
+
+main #intro > div {
     width: 90%;
     max-width: 1050px;
     /* height: 447px; */
-    margin: 20px auto ;
-    background-color: #0000006b;
+    margin: 0 auto;
     /* border: 1px solid; */
     text-align: center;
     color: white;
     padding: 0.063rem;
     backdrop-filter: blur(2px);
+    border-radius: 0.313rem;
+    background-color: #0000006b;
 }
 
-main h1 {
+main #intro h1 {
     margin: 1.25rem;
     font-size: 1.875rem;
 }
 
-main hr {
+main #intro hr {
     width: 90%;
     max-width: 819px;
     margin: 0 auto;
 }
 
-main p {
+main #intro p {
     width: 86%;
     max-width: 678px;
     margin: 2.938rem auto 0;
@@ -50,7 +82,7 @@ main p {
     letter-spacing: 0.125rem;
 }
 
-main a {
+main #intro a {
     display: inline-block;
     background-color: #3d3737;
     border-radius: 3.438rem;
@@ -61,11 +93,49 @@ main a {
     color: black;  
 }
 
-main a h2 {
+main #intro a h2 {
     font-size: 20px;
     margin: 0.438rem 0 0.313rem;
 }
 
+
+main #personagens {
+    width: 100%;
+    background-color: #c7a285;
+    padding: 2.5rem 0;
+}
+
+main #personagens > div {
+    width: 90%;
+    max-width: 1050px;
+    margin: 0 auto ;
+    padding: 0.063rem;
+    backdrop-filter: blur(2px);
+    border-radius: 0.313rem;
+}
+
+main #personagens h2 {
+    text-align: center;
+}
+
+main #personagens #cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #personagens #cards #card {
+    width: 205px;
+    border: 1px solid;
+    text-align: center;
+}
+
+main #personagens #cards img {
+    width: 100%;
+    height: 253px;
+    object-fit: cover;
+    background-color: rgb(47, 47, 47);
+}
 
 
 /*================= FOOTER =================*/
@@ -73,8 +143,21 @@ main a h2 {
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     width: 90%;
     max-width: 1050px;
+    height: 30px;
     margin: 0 auto ;
 }
+
+footer p:last-child {
+    margin-left: 0.375rem;
+}
+
+
+/* @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+} */
