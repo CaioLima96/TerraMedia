@@ -114,6 +114,8 @@ main #personagens > div {
     padding: 0.063rem;
     backdrop-filter: blur(2px);
     border-radius: 0.313rem;
+    
+    text-align: center;
 }
 
 main #personagens h2 {
@@ -129,7 +131,6 @@ main #personagens #cards {
 
 main #personagens #cards #card {
     width: 205px;
-    border: 1px solid;
     text-align: center;
 }
 
@@ -138,7 +139,33 @@ main #personagens #cards img {
     height: 253px;
     object-fit: cover;
     background-color: rgb(47, 47, 47);
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+    border-radius: 0.188rem;
 }
+
+main #personagens #cards #card #card-description h4 {
+    margin-top: 0.25rem;
+}
+
+main #personagens #cards #card #card-description p {
+    margin-top: 0.75rem;
+}
+
+main #personagens button {
+    display: inline-block;
+    background-color: #3d3737;
+    border-radius: 3.438rem;
+    /* width: 86px; */
+    height: 40px;
+    margin: 7rem 0 2.5rem;
+    color: black;
+    padding: 0.625rem;
+    border: none;
+    font-size: 1rem;
+}
+
+
 
 
 /*================= FOOTER =================*/
