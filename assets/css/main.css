@@ -21,7 +21,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
+
+    height: 43px;
+    background-color: #847b61;
 }
 
 header p {
@@ -76,13 +78,13 @@ main #intro hr {
 main #intro p {
     width: 86%;
     max-width: 678px;
-    margin: 2.938rem auto 0;
+    margin: 2.938rem auto 1.25rem;
     font-size: 1.125rem;
     line-height: 1.875rem;
     letter-spacing: 0.125rem;
 }
 
-main #intro a {
+/* main #intro a {
     display: inline-block;
     background-color: #3d3737;
     border-radius: 3.438rem;
@@ -91,7 +93,7 @@ main #intro a {
     margin: 7rem 0 2.5rem;
     text-decoration: none;
     color: black;  
-}
+} */
 
 main #intro a h2 {
     font-size: 20px;
@@ -101,7 +103,7 @@ main #intro a h2 {
 
 main #personagens {
     width: 100%;
-    background-color: #c7a285;
+    background-color: #b6ad90;
     padding: 2.5rem 0;
 }
 
@@ -116,6 +118,7 @@ main #personagens > div {
 
 main #personagens h2 {
     text-align: center;
+    margin-bottom: 1.25rem;
 }
 
 main #personagens #cards {
@@ -145,10 +148,11 @@ footer {
     justify-content: center;
     align-items: center;
 
-    width: 90%;
-    max-width: 1050px;
+    background-color: #847b61;
+    width: 100%;
     height: 30px;
-    margin: 0 auto ;
+    margin: 0 auto;
+    font-size: 0.875rem;
 }
 
 footer p:last-child {
