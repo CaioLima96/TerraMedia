@@ -47,9 +47,8 @@ function escolhaPequenalfFase1 () {
     }
 }
 
+
+//função que me manda pra proxima fase
 function proximaFasePequenalfFase1() {
     return location = ('./pequenalf-fase2.html');
 }
-
-// `<img src="../../img/outros/nazgul-1.jpg" alt="Gameover Fase 1 do Pequenalf">
-// <p>Você sucumbiu à influência e poder do Um Anel e virou servo de Sauron, agora você é um Nazgul!</p>`;
