@@ -6,8 +6,6 @@ function escolhaPequenalfFase1 () {
         if (escolhaPequenalfFase1 == 1) {
 
             let gameOverPequenalfFase1 =  document.getElementById("main-container").innerHTML = `
-
-            <main>
             
             <h1> GAMEOVER </h1>
 
@@ -19,27 +17,39 @@ function escolhaPequenalfFase1 () {
 
             </section>
 
-            <button onclick="recomecar()"><p>Recomeçar</p></button>
+            <a href="../../../index.html#personagens" id="a-gameOverPequenalf"><p>Recomeçar</p></a>
+            `;
 
-            </main`;
-
-            // return location = ('./gameover-pequenalf1.html');
             return gameOverPequenalfFase1;
 
-        // } else if (escolhaPequenalfFase1 == 2) {
+        } else if (escolhaPequenalfFase1 == 2) {
 
-        //     return location = ('')
+            let sucessopequenalfFase1 =  document.getElementById("main-container").innerHTML = `
 
-         } else {
+            <h1>Fase 1 - A Reunião</h1>
+
+            <section id="content">
+
+                <img src="../../img/outros/sociedade-anel-reuniao-2.jpg" alt="Sociedade do Anel">
+
+                <p>Com os objetivos definidos, a Sociedade do Anel parte em direção à Montanha da Perdição!</p>
+
+            </section>
+
+            <button onclick="proximaFasePequenalfFase1()"><p>Próxima Fase</p></button>
+
+            `;
+            return sucessopequenalfFase1;
+
+        } else {
             alert('Opção invalida, escolha denovo')
         }
     }
 }
 
-function recomecar() {
-    return location = ('../../../index.html')
+function proximaFasePequenalfFase1() {
+    return location = ('./pequenalf-fase2.html');
 }
-
 
 // `<img src="../../img/outros/nazgul-1.jpg" alt="Gameover Fase 1 do Pequenalf">
 // <p>Você sucumbiu à influência e poder do Um Anel e virou servo de Sauron, agora você é um Nazgul!</p>`;

@@ -163,6 +163,7 @@ main #personagens button {
     padding: 0.625rem;
     border: none;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 

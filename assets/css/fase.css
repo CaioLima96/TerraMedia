@@ -63,4 +63,19 @@ main button {
     padding: 0.625rem;
     border: none;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+/*========Essa tag a é a que vai ser injetada via js========*/
+main #a-gameOverPequenalf {
+    display: inline-block;
+    background-color: #0000006b;
+    border-radius: 3.438rem;
+    height: 40px;
+    margin: 2.938rem 0 2.5rem;
+    color: white;
+    padding: 0.625rem;
+    border: none;
+    font-size: 1rem;
+    text-decoration: none;
 }
