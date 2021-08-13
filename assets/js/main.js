@@ -5,7 +5,7 @@ function start () {
 
         if (personagemEscolhido == 1) {
 
-            return location = ('./assets/fases/pequenalf-fase1.html');
+            return location = ('./assets/fases/pequenalf/pequenalf-fase1.html');
 
         // } else if (personagemEscolhido == 2) {
 
@@ -21,3 +21,7 @@ function start () {
     }
 
 }
+
+// function recomecar() {
+//     return location = ('')
+// }
