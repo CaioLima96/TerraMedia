@@ -1,7 +1,7 @@
 function start () {
 
     while(true) {
-        var personagemEscolhido = prompt('Escolha seu personagen: \n 1 - Pequenalf \n 2 - Sam e Frodo \n 3 - Misterimir')
+        var personagemEscolhido = prompt('Escolha seu personagen (Digite apenas o número): \n 1 - Pequenalf \n 2 - Sam e Frodo \n 3 - Misterimir')
 
         if (personagemEscolhido == 1) {
 

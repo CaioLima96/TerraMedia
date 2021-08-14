@@ -1,7 +1,7 @@
 function escolhaPequenalfFase1 () {
 
     while(true) {
-        var escolhaPequenalfFase1 = prompt('Digite sua escolha: \n 1 - Você levar o anel \n 2 - Deixar para Sam e Frodo')
+        var escolhaPequenalfFase1 = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Você levar o anel \n 2 - Deixar para Sam e Frodo (Digite apenas o número)')
 
         if (escolhaPequenalfFase1 == 1) {
 
@@ -17,14 +17,14 @@ function escolhaPequenalfFase1 () {
 
             </section>
 
-            <a href="../../../index.html#personagens" id="a-gameOverPequenalf"><p>Recomeçar</p></a>
+            <a href="../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
             `;
 
             return gameOverPequenalfFase1;
 
         } else if (escolhaPequenalfFase1 == 2) {
 
-            let sucessopequenalfFase1 =  document.getElementById("main-container").innerHTML = `
+            let sucessoPequenalfFase1 =  document.getElementById("main-container").innerHTML = `
 
             <h1>Fase 1 - A Reunião</h1>
 
@@ -39,7 +39,7 @@ function escolhaPequenalfFase1 () {
             <button onclick="proximaFasePequenalfFase1()"><p>Próxima Fase</p></button>
 
             `;
-            return sucessopequenalfFase1;
+            return sucessoPequenalfFase1;
 
         } else {
             alert('Opção invalida, escolha denovo')

@@ -66,8 +66,8 @@ main button {
     cursor: pointer;
 }
 
-/*========Essa tag a é a que vai ser injetada via js========*/
-main #a-gameOverPequenalf {
+/*========Essa tag a é a que vai ser injetada nas telas de gameover via js========*/
+main #gameOverButton {
     display: inline-block;
     background-color: #0000006b;
     border-radius: 3.438rem;
@@ -78,4 +78,10 @@ main #a-gameOverPequenalf {
     border: none;
     font-size: 1rem;
     text-decoration: none;
+}
+
+/*========Esse cursor vai ser injetado na tela de gameover da fase 2 via js========*/
+main #content #harry {
+    color: wheat;
+    cursor: url('../img/itens/dumbledore-wand-2.png'), auto;
 }

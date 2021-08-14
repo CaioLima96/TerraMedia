@@ -1,11 +1,11 @@
 function escolhaPequenalfFase2 () {
 
     while(true) {
-        var escolhaPequenalfFase2 = prompt('Digite sua escolha: \n 1 - Você não vai passar! \n 2 - Expecto Patronum \n 3 - Fugir ')
+        var escolhaPequenalfFase2 = prompt('Qual a sua escolha (Digite apenas o número): \n 1 - Você não vai passar! \n 2 - Expecto Patronum \n 3 - Fugir')
 
         if (escolhaPequenalfFase2 == 1) {
 
-            let sucessopequenalfFase2 =  document.getElementById("main-container").innerHTML = `
+            let sucessoPequenalfFase2 =  document.getElementById("main-container").innerHTML = `
             
             <h1>Fase 2 - A Ponte de Khazad-dûm</h1>
 
@@ -20,27 +20,45 @@ function escolhaPequenalfFase2 () {
             <button onclick="proximaFasePequenalfFase2()"><p>Próxima Fase</p></button>
             `;
 
-            return sucessopequenalfFase2;
+            return sucessoPequenalfFase2;
 
-        // } else if (escolhaPequenalfFase2 == 2) {
+        } else if (escolhaPequenalfFase2 == 2) {
 
-        //     let gameOverPequenalfFase2 =  document.getElementById("main-container").innerHTML = `
+            let gameOverPequenalfFase2 =  document.getElementById("main-container").innerHTML = `
 
-        //     <h1>Fase 1 - A Reunião</h1>
+            <h1>GAMEOVER</h1>
 
-        //     <section id="content">
+            <section id="content">
 
-        //         <img src="../../img/outros/sociedade-anel-reuniao-2.jpg" alt="Sociedade do Anel">
+                <img src="../../img/personagens/balrog.jpg">
 
-        //         <p>Com os objetivos definidos, a Sociedade do Anel parte em direção à Montanha da Perdição!</p>
+                <p>Isso aqui não é <span id="harry">Harry Potter</span> e Balrog não é um Dementador, infelizmente. Seus amigos morreram queimados vivos e viraram churrasquinho de orc...</p>
 
-        //     </section>
+            </section>
 
-        //     <button onclick="proximaFasePequenalfFase1()"><p>Próxima Fase</p></button>
+            <a href="../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
 
-        //     `;
-        //     return gameOverPequenalfFase2;
+            `;
+            return gameOverPequenalfFase2;
 
+        } else if (escolhaPequenalfFase2 == 3) {
+
+            let gameOverPequenalfFase2 =  document.getElementById("main-container").innerHTML = `
+
+            <h1>GAMEOVER</h1>
+
+            <section id="content">
+
+                <img src="../../img/personagens/balrog.jpg">
+
+                <p>Seus amigos morreram queimados vivos e viraram churrasquinho de orc...</p>
+
+            </section>
+
+            <a href="../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
+
+            `;
+            return gameOverPequenalfFase2;
         } else {
             alert('Opção invalida, escolha denovo')
         }
@@ -49,6 +67,6 @@ function escolhaPequenalfFase2 () {
 
 
 //função que me manda pra proxima fase
-// function proximaFasePequenalfFase2() {
-//     return location = ('./pequenalf-fase3.html');
-// }
+function proximaFasePequenalfFase2() {
+    return location = ('./pequenalf-fase3.html');
+}
