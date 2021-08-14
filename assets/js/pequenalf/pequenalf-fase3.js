@@ -29,11 +29,13 @@ function parte2PequenalfFase3() {
 
     <section id="content">
 
-        <img src="../../img/personagens/pequenalf-o-branquinho-banner.jpg" alt="Pequenalf, O Branquinho">
+        <img src="../../img/outros/gandalf-epic-sax-guy.gif" alt="Gandalf Epic Sax Guy">
 
-        <p>Parabéns! Você completou a Jornada de Pequenalf, O Cinzentinha! Obrigado por ter jogado. Quer saber o que acontece se escolher um caminho diferente ou a jornaada de outro personagem? Clique no botão abaixo para jogar de novo!</p>
+        <p>Parabéns! Você completou a Jornada de Pequenalf, O Cinzentinho! Obrigado por ter jogado. Quer saber o que acontece se escolher um caminho diferente ou a jornada de outro personagem? Clique no botão abaixo para jogar de novo!</p>
 
     </section>
+
+    <audio autoplay> <source src="../../music/epic-sax-guy.mp3" type="audio/mpeg"></audio>
 
     <a href="../../../index.html#personagens" id="gameOverButton"><p>Jogar de novo</p></a>
     `;
