@@ -7,9 +7,9 @@ function start () {
 
             return location = ('./assets/fases/pequenalf/pequenalf-fase1.html');
 
-        // } else if (personagemEscolhido == 2) {
+        } else if (personagemEscolhido == 2) {
 
-        //     return location = ('')
+           return location = ('./assets/fases/frodo-sam/frodo-sam-fase1.html')
 
         // } else if (personagemEscolhido == 3){
 

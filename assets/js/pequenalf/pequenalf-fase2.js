@@ -30,7 +30,7 @@ function escolhaPequenalfFase2 () {
 
             <section id="content">
 
-                <img src="../../img/personagens/balrog.jpg">
+                <img src="../../img/personagens/balrog.jpg" alt="balrog">
 
                 <p>Isso aqui não é <span id="harry">Harry Potter</span> e Balrog não é um Dementador, infelizmente. Seus amigos morreram queimados vivos e viraram churrasquinho de orc...</p>
 
@@ -49,7 +49,7 @@ function escolhaPequenalfFase2 () {
 
             <section id="content">
 
-                <img src="../../img/personagens/balrog.jpg">
+                <img src="../../img/personagens/balrog.jpg" alt="balrog">
 
                 <p>Seus amigos morreram queimados vivos e viraram churrasquinho de orc...</p>
 

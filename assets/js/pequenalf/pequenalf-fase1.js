@@ -1,7 +1,7 @@
 function escolhaPequenalfFase1 () {
 
     while(true) {
-        var escolhaPequenalfFase1 = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Você levar o anel \n 2 - Deixar para Sam e Frodo (Digite apenas o número)')
+        var escolhaPequenalfFase1 = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Você levar o anel \n 2 - Deixar para Sam e Frodo')
 
         if (escolhaPequenalfFase1 == 1) {
 
