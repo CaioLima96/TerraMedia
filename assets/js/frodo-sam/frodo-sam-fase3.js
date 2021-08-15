@@ -11,15 +11,15 @@ function escolhaFrodoSamFase3() {
 
             <section id="content">
 
-                <!--<img src="../../img/outros/eu-lavarei-anel.jpg" alt="eu levarei o anel">-->
+                <img src="../../img/outros/batalha-tumba-de-balin.jpg" alt=Batalha na tumba de balin">
 
                 <p>
-                    olá mundo
+                    Frodo e Sam conseguiram escapar e se encontraram com seus amigos. Agora juntos podem derrotar os orcs!
                 </p>
 
             </section>
 
-            <button onclick="parte2FrodoSamFase2()"><p>Avançar</p></button>
+            <button onclick="parte2FrodoSamFase3()"><p>Avançar</p></button>
             `;
 
             return parte2FrodoSamFase3;
@@ -49,29 +49,43 @@ function escolhaFrodoSamFase3() {
     }
 }
 
-function parte2FrodoSamFase2() {
+function parte2FrodoSamFase3() {
     
     let sucessoFrodoSamFase3 =  document.getElementById("main-container").innerHTML = `
 
-    <h1>Fase 2 - Inicio de uma jornada</h1>
+    <h1>Fase 3 - Fugindo de Khazad-dûm</h1>
 
     <section id="content">
 
-        <!--<img src="../../img/gif/gandalf-epic-sax-guy-2.gif" alt="">-->
+        <img src="../../img/outros/fugindo-de-moria.jpg" alt="Fugindo de Moria">
 
-        <p>Parabéns! Você completou a Jornada de Frodo e Sam! Obrigado por ter jogado. Quer saber o que acontece se escolher um caminho diferente ou a jornada de outro personagem? Clique no botão abaixo para jogar de novo!</p>
+        <p>Sam e amigos derrotaram os orcs que os encurralaram na Tumba de Balin! Mas agora todos precisam fugir, pois um grande e antigo mal se aproxima...</p>
 
     </section>
 
-    <a href="../../../index.html#personagens" id="gameOverButton"><p>Jogar de novo</p></a>
+    <button onclick="parte3FrodoSamFase3()"><p>Avançar</p></button>
 
     `;
 
     return sucessoFrodoSamFase3;
 }
 
+function parte3FrodoSamFase3() {
 
-//função que me manda pra proxima fase
-// function proximaFaseFrodoSamFase2() {
-//     return location = ('./frodo-sam-fase3.html');
-// }
+    let despedidaFrodoSamFase3 =  document.getElementById("main-container").innerHTML = `
+            
+    <h1>FIM</h1>
+
+    <section id="content">
+
+        <img src="../../img/personagens/frodo-e-sam-3.jpg" alt="Sam e Frodo">
+
+        <p>Parabéns! Você completou a Jornada de Frodo e Sam! Obrigado por ter jogado. Quer saber o que acontece se escolher um caminho diferente ou a jornada de outro personagem? Clique no botão abaixo para jogar de novo!</p>
+
+    </section>
+
+    <a href="../../../index.html#personagens" id="gameOverButton"><p>Jogar de novo</p></a>
+    `;
+    
+    return despedidaFrodoSamFase3;
+}

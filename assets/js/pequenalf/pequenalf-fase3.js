@@ -1,7 +1,5 @@
 function parte2PequenalfFase3() {
 
-   
-
     let despedidaPequenalfFase3 =  document.getElementById("main-container").innerHTML = `
             
     <h1>FIM</h1>
