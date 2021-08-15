@@ -90,6 +90,17 @@ main #content #harry {
 
 
 @media (max-width: 768px) {
+
+    main #content img:not(#img-container img) {
+        width: 90% !important;
+        border-top-left-radius: 3.75rem !important;
+        border-bottom-right-radius: 3.75rem !important;    
+    }
+
+    main #content p {
+        padding: 0 1.25rem;
+    }
+
     main #content #familia-meme {
         display: none;
     }
