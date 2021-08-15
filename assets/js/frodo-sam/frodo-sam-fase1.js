@@ -7,13 +7,13 @@ function escolhaFrodoSamFase1 () {
 
             let sucessoFrodoSamFase1 =  document.getElementById("main-container").innerHTML = `
 
-            <h1>Fase 1 - A Reunião</h1>
+            <h1>Fase 1 - A Visita</h1>
 
             <section id="content">
 
                 <img src="../../img/personagens/sam.jpg" alt="Sam">
 
-                <p>Samwise, mais conhecido como Sam, é pego por Pequenalf bisbilhotando a conversa sobre o Um Anel. Mas jura que não vai falar nada do que ouviu e decidi ir com os 2 para Rivendell.</p>
+                <p>Samwise, mais conhecido como Sam, é pego por bisbilhotando Pequenalf a conversa sobre o Um Anel. Mas jura que não vai falar nada do que ouviu e decidi ir com os 2 para Rivendell.</p>
 
             </section>
 
@@ -71,6 +71,6 @@ function parte2FrodoSamFase1() {
 }
 
 //função que me manda pra proxima fase
-// function proximaFaseFrodoSamFase1() {
-//     return location = ('./frodo-sam-fase2.html');
-// }
+function proximaFaseFrodoSamFase1() {
+    return location = ('./frodo-sam-fase2.html');
+}

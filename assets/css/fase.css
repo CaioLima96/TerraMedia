@@ -40,7 +40,7 @@ main #content {
     padding: 0.063rem;
 }
 
-main #content img {
+main #content img:not(#img-container img) {
     width: 70%;
     margin: 1.25rem 0;
     border-top-left-radius: 4.813rem;
@@ -84,4 +84,42 @@ main #gameOverButton {
 main #content #harry {
     color: wheat;
     cursor: url('../img/itens/dumbledore-wand-2.png'), auto;
+}
+
+
+
+
+@media (max-width: 768px) {
+    main #content #familia-meme {
+        display: none;
+    }
+
+    /*========Esse container de img vai ser injetado na fase2 do frodo e sam via js*/
+    main #content #img-container {
+        /* max-width: 960px; */
+        width: 90%;
+        margin: 1.25rem auto;
+    }
+
+    main #content #img-container #img-card {
+        width: 100%;
+    }
+
+    main #content #img-container #img-card img {
+        width: 100%;
+    }
+
+    main #content #img-container #img-card:first-child img {
+        border-top-left-radius: 4.813rem;
+    }
+
+    main #content #img-container #img-card:last-child img {
+        border-bottom-right-radius: 4.813rem;
+    }
+}
+
+@media (min-width: 769px) {
+    main #content #img-container {
+        display: none;
+    }
 }
