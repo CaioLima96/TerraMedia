@@ -11,12 +11,13 @@ function start () {
 
            return location = ('./assets/fases/frodo-sam/frodo-sam-fase1.html')
 
-        // } else if (personagemEscolhido == 3){
+        } else if (personagemEscolhido == 3){
 
-        //     return location = ('')
+            return location = ('./assets/fases/misterimir/misterimir-fase1.html')
 
         } else {
             alert('Opção invalida, escolha denovo')
+            break
         }
     }
 
