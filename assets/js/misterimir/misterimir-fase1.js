@@ -1,55 +1,79 @@
 function escolhaMisterimirFase1 () {
 
-    // while(true) {
-    //     var escolhaMisterimirFase1 = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Você levar o anel \n 2 - Deixar para Sam e Frodo')
+    while(true) {
+        var escolhaMisterimirFase1 = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Aliado \n 2 - Inimigo')
 
-    //     if (escolhaMisterimirFase1 == 1) {
+        if (escolhaMisterimirFase1 == 1) {
 
-    //         let gameOverMisterimirFase1 =  document.getElementById("main-container").innerHTML = `
+            let caminhoBemMisterimirFase1 =  document.getElementById("main-container").innerHTML = `
             
-    //         <h1> GAMEOVER </h1>
+            <h1>Fase 1.2 - Ajuda a caminho!</h1>
 
-    //         <section id="content">
+            <section id="content">
 
-    //             <!--<img src="../../img/outros/nazgul-1.jpg" alt="Gameover Fase 1 do Pequenalf">-->
+                <img src="../../img/outros/talion-fortaleza.jpg" alt="Talion invadindo fortaleza">
 
-    //             <p>Você perdeu</p>
+                <p>Carnán, o Espírito da Natureza, percebe que Talion está tendo dificuldades em derrubar a fortaleza Sharkhburz e pede ajuda a Misterimir, que prontamente atende ao pedido.</p>
 
-    //         </section>
+            </section>
 
-    //         <a href="../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
-    //         `;
+            <button onclick="parte2MisterimirFase1Bem()"><p>Avançar</p></button>
+            `;
 
-    //         return gameOverMisterimirFase1;
+            return caminhoBemMisterimirFase1;
 
-    //     } else if (escolhaMisterimirFase1 == 2) {
+        } else if (escolhaMisterimirFase1 == 2) {
 
-    //         let sucessoMisterimirfFase1 =  document.getElementById("main-container").innerHTML = `
+            let caminhoMalMisterimirFase1 =  document.getElementById("main-container").innerHTML = `
 
-    //         <h1>Fase 1 - A Reunião</h1>
+            <h1>Fase 1.2 - Defenda Sharkhburz!</h1>
 
-    //         <section id="content">
+            <section id="content">
 
-    //             <img src="../../img/outros/sociedade-anel-reuniao-2.jpg" alt="Sociedade do Anel">
+            <img src="../../img/outros/takra-vs-talion.jpg" alt="Takra vs Talion">
 
-    //             <p>Com os objetivos definidos, a Sociedade do Anel parte em direção à Montanha da Perdição!</p>
+            <p>Com sua ajuda, Takra-Kar consegue matar Talion e continuar na liderança da Fortaleza Sharkhburz. Carnán, o Espírito da Natureza está cada vez mais perto da derrota!</p>
 
-    //         </section>
+            </section>
 
-    //         <button onclick="proximaFasePequenalfFase1()"><p>Próxima Fase</p></button>
+            <button onclick="proximaFaseMisterimirFase1Mal()"><p>Próxima Fase</p></button>
 
-    //         `;
-    //         return sucessoMisterimirfFase1;
+            `;
+            return caminhoMalMisterimirFase1;
 
-    //     } else {
-    //         alert('Opção invalida, escolha denovo')
-    //         break
-    //     }
-    // }
+        } else {
+            alert('Opção invalida, escolha denovo')
+            break
+        }
+    }
 }
 
+function parte2MisterimirFase1Bem() {
+    
+    let MisterimirFase1Bem =  document.getElementById("main-container").innerHTML = `
+
+    <h1> Fase 1.2 - Ajuda a caminho! </h1>
+
+    <section id="content">
+
+        <img src="../../img/outros/misterimir-vs-orc-captain.jpg" alt="Misterimir vs Orc">
+
+        <p>Felizmente Misterimir mata Shukah Khur, o Come Mosca. Com um dos capitães de Sharkhburz morto, a Talion mata o líder e conquista a fortaleza.</p>
+
+    </section>
+
+    <button onclick="proximaFaseMisterimirFase1Bem()"><p>Próxima Fase</p></button>
+
+    `;
+
+    return MisterimirFase1Bem;
+}
 
 //função que me manda pra proxima fase
-// function proximaFasePequenalfFase1() {
-//     return location = ('./misterimir-fase2.html');
-// }
+function proximaFaseMisterimirFase1Bem() {
+    return location = ('./misterimir-fase2-bem.html');
+}
+
+function proximaFaseMisterimirFase1Mal() {
+    return location = ('./misterimir-fase2-mal.html');
+}

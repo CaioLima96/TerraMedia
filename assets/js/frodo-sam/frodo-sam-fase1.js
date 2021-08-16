@@ -13,7 +13,7 @@ function escolhaFrodoSamFase1 () {
 
                 <img src="../../img/personagens/sam.jpg" alt="Sam">
 
-                <p>Samwise, mais conhecido como Sam, é pego por bisbilhotando Pequenalf a conversa sobre o Um Anel. Mas jura que não vai falar nada do que ouviu e decidi ir com os 2 para Rivendell.</p>
+                <p>Samwise, mais conhecido como Sam, é pego bisbilhotando Pequenalf a conversa sobre o Um Anel. Mas jura que não vai falar nada do que ouviu e decidi ir com os 2 para Rivendell.</p>
 
             </section>
 
