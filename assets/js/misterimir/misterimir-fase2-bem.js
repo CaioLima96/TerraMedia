@@ -30,13 +30,13 @@ function escolhaMisterimirFase2Bem () {
 
             <section id="content">
 
-            <!--<img src="../../img/outros/takra-vs-talion.jpg" alt="Takra vs Talion">-->
+            <img src="../../img/outros/drake-vs-orcs.jpg" alt="Drake vs Orcs">
 
-            <p>olá mundo</p>
+            <p>Com a ajuda de Carnán, Misterimir chega a tempo de salvar Sobeck-Khor e põe fogo em uns orcs que estavam atacando Irondir e seus soldados.</p>
 
             </section>
 
-            <button onclick="parte2MisterimirFase2Bem()"><p>Próxima Fase</p></button>
+            <button onclick="parte2MisterimirFase2Bem()"><p>Avançar</p></button>
 
             `;
             return caminhoBemMisterimirFase2;
@@ -52,17 +52,17 @@ function parte2MisterimirFase2Bem() {
     
     let MisterimirFase1Bem =  document.getElementById("main-container").innerHTML = `
 
-    <h1> Fase 1.2 - Ajuda a caminho! </h1>
+    <h1>Fase 2 - O Contra-Ataque do Império</h1>
 
     <section id="content">
 
-        <img src="../../img/outros/misterimir-vs-orc-captain.jpg" alt="Misterimir vs Orc">
+        <img src="../../img/outros/reforco-orc.jpg" alt="Reforço orc">
 
-        <p>Felizmente Misterimir mata Shukah Khur, o Come Mosca. Com um dos capitães de Sharkhburz morto, a Talion mata o líder e conquista a fortaleza.</p>
+        <p>"É difícil liderar uma cidade, ainda mais com orcs como inimigos. Obrigado pela ajuda, forasteiro.", disse Irondir. Enquanto os ajudavam os feridos ali presentes, mais inimigos chegam... e oferecendo trégua.</p>
 
     </section>
 
-    <button onclick="proximaFaseMisterimirFase1Bem()"><p>Próxima Fase</p></button>
+    <button onclick="proximaFaseMisterimirFase2Bem()"><p>Próxima Fase</p></button>
 
     `;
 
