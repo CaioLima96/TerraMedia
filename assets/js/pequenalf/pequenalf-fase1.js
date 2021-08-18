@@ -13,7 +13,7 @@ function escolhaPequenalfFase1 () {
 
                 <img src="../../img/outros/nazgul-1.jpg" alt="Gameover Fase 1 do Pequenalf">
 
-                <p>Você sucumbiu à influência e poder do Um Anel e virou servo de Sauron, agora você é um Nazgul!</p>
+                <p>Você sucumbiu à influência e poder do Um Anel e virou servo de Sauron, agora você é um Nazgûl!</p>
 
             </section>
 

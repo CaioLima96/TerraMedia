@@ -17,7 +17,6 @@ function start () {
 
         } else {
             alert('Opção invalida, escolha denovo')
-            break
         }
     }
 

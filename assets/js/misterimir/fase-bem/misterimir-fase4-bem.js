@@ -1,47 +1,49 @@
 function escolhaMisterimirFase4Bem () {
 
-    var escolhaMisterimirFase4Bem = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Montar em Carnán \n 2 - Continuar no chão')
+    while (true) {
+        var escolhaMisterimirFase4Bem = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Montar em Carnán \n 2 - Continuar no chão')
 
-    if (escolhaMisterimirFase4Bem == 1) {
+        if (escolhaMisterimirFase4Bem == 1) {
 
-        let sucessoMisterimirFase4Bem =  document.getElementById("main-container").innerHTML = `
-        
-            <h1>Fase 4 - O Retorno de Carnán</h1>
+            let sucessoMisterimirFase4Bem =  document.getElementById("main-container").innerHTML = `
+            
+                <h1>Fase 4 - O Retorno de Carnán</h1>
+
+                <section id="content">
+
+                    <img src="../../../img/outros/carnan-e-misterimir-vs-tar-goroth.jpg" alt="Carnan e Misterimir vs Tar Goroth">
+
+                    <p>Misterimir e Carnán conseguiram derrotar Tar Goroth. Sobeck-Khor pode cair, mas esse dia não é hoje! Todos da cidade gritam de alegria pela derrota do inimigo!</p>
+
+                </section>
+
+                <button onclick="parte2MisterimirFase4Bem()"><p>Avançar</p></button>
+            `;
+
+            return sucessoMisterimirFase4Bem;
+
+        } else if (escolhaMisterimirFase4Bem == 2) {
+
+            let gameOverMisterimirFase4Bem =  document.getElementById("main-container").innerHTML = `
+
+            <h1> GAMEOVER </h1>
 
             <section id="content">
 
-                <img src="../../../img/outros/carnan-e-misterimir-vs-tar-goroth.jpg" alt="Carnan e Misterimir vs Tar Goroth">
+                <img src="../../../img/outros/sobeck-khor.jpg" alt="Sobeck-Khor em chamas">
 
-                <p>Misterimir e Carnán conseguiram derrotar Tar Goroth. Sobeck-Khor pode cair, mas esse dia não é hoje! Todos da cidade gritam de alegria pela derrota do inimigo!</p>
+                <p>Você achou que atacando por cima e baixo seria uma boa ideia, mas não foi. Tar Goroth conseguiu laçar e puxar Carnán para o chão, você poderia ter impedido isso. Agora Sobeck-Khor foi dizimada.</p>
 
             </section>
 
-            <button onclick="parte2MisterimirFase4Bem()"><p>Avançar</p></button>
-        `;
+            <a href="../../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
 
-        return sucessoMisterimirFase4Bem;
+            `;
+            return gameOverMisterimirFase4Bem;
 
-    } else if (escolhaMisterimirFase4Bem == 2) {
-
-        let gameOverMisterimirFase4Bem =  document.getElementById("main-container").innerHTML = `
-
-        <h1> GAMEOVER </h1>
-
-        <section id="content">
-
-            <img src="../../../img/outros/sobeck-khor.jpg" alt="Sobeck-Khor em chamas">
-
-            <p>Você achou que atacando por cima e baixo seria uma boa ideia, mas não foi. Tar Goroth conseguiu laçar e puxar Carnán para o chão, você poderia ter impedido isso. Agora Sobeck-Khor foi dizimada.</p>
-
-        </section>
-
-        <a href="../../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
-
-        `;
-        return gameOverMisterimirFase4Bem;
-
-    } else {
-        alert('Opção invalida, escolha denovo') 
+        } else {
+            alert('Opção invalida, escolha denovo') 
+        }
     }
    
 }

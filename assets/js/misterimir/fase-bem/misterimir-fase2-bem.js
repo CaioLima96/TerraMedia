@@ -1,50 +1,52 @@
 function escolhaMisterimirFase2Bem () {
 
-    var escolhaMisterimirFase2Bem = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Caragor \n 2 - Drake')
+    while (true) {
+        var escolhaMisterimirFase2Bem = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Caragor \n 2 - Drake')
 
-    if (escolhaMisterimirFase2Bem == 1) {
+        if (escolhaMisterimirFase2Bem == 1) {
 
-        let gameOvercaminhoBemMisterimirFase2 =  document.getElementById("main-container").innerHTML = `
-        
-        <h1> GAMEOVER </h1>
+            let gameOvercaminhoBemMisterimirFase2 =  document.getElementById("main-container").innerHTML = `
+            
+            <h1> GAMEOVER </h1>
 
-        <section id="content">
+            <section id="content">
 
-            <img src="../../../img/outros/sobeck-khor.jpg" alt="Sobeck-Khor em chamas">
+                <img src="../../../img/outros/sobeck-khor.jpg" alt="Sobeck-Khor em chamas">
 
-            <p>Caragors podem até ser rápidos, mas não podem voar por cima de uma emboscada. Você derrotou a emboscada, mas Sobeck-Khor foi reduzida à cinzas.</p>
+                <p>Caragors podem até ser rápidos, mas não podem voar por cima de uma emboscada. Você derrotou a emboscada, mas Sobeck-Khor foi reduzida à cinzas.</p>
 
-        </section>
+            </section>
 
-        <a href="../../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
-        `;
+            <a href="../../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
+            `;
 
-        return gameOvercaminhoBemMisterimirFase2;
+            return gameOvercaminhoBemMisterimirFase2;
 
-    } else if (escolhaMisterimirFase2Bem == 2) {
+        } else if (escolhaMisterimirFase2Bem == 2) {
 
-        let sucessoMisterimirFase2Bem =  document.getElementById("main-container").innerHTML = `
+            let sucessoMisterimirFase2Bem =  document.getElementById("main-container").innerHTML = `
 
-        <h1>Fase 2 - O Contra-Ataque do Império</h1>
+            <h1>Fase 2 - O Contra-Ataque do Império</h1>
 
-        <section id="content">
+            <section id="content">
 
-        <img src="../../../img/outros/drake-vs-orcs.jpg" alt="Drake vs Orcs">
+            <img src="../../../img/outros/drake-vs-orcs.jpg" alt="Drake vs Orcs">
 
-        <p>Com a ajuda de Carnán, Misterimir chega a tempo de salvar Sobeck-Khor e põe fogo em uns orcs que estavam atacando Irondir e seus soldados.</p>
+            <p>Com a ajuda de Carnán, Misterimir chega a tempo de salvar Sobeck-Khor e põe fogo em uns orcs que estavam atacando Irondir e seus soldados.</p>
 
-        </section>
+            </section>
 
-        <button onclick="parte2MisterimirFase2Bem()"><p>Avançar</p></button>
+            <button onclick="parte2MisterimirFase2Bem()"><p>Avançar</p></button>
 
-        `;
-        return sucessoMisterimirFase2Bem;
+            `;
+            return sucessoMisterimirFase2Bem;
 
-    } else {
-        alert('Opção invalida, escolha denovo')
-        
-    }
+        } else {
+            alert('Opção invalida, escolha denovo')
+            
+        }
     
+    }
 }
 
 function parte2MisterimirFase2Bem() {

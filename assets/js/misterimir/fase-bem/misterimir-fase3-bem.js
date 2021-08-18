@@ -1,48 +1,50 @@
 function escolhaMisterimirFase3Bem () {
 
-    var escolhaMisterimirFase3Bem = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Aceitar \n 2 - Trégua de cu é rola!')
+    while (true) {
+        var escolhaMisterimirFase3Bem = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Aceitar \n 2 - Trégua de cu é rola!')
 
-    if (escolhaMisterimirFase3Bem == 1) {
+        if (escolhaMisterimirFase3Bem == 1) {
 
-        let gameOvercaminhoBemMisterimirFase3 =  document.getElementById("main-container").innerHTML = `
-        
-        <h1> GAMEOVER </h1>
+            let gameOvercaminhoBemMisterimirFase3 =  document.getElementById("main-container").innerHTML = `
+            
+            <h1> GAMEOVER </h1>
 
-        <section id="content">
+            <section id="content">
 
-            <img src="../../../img/outros/sobeck-khor.jpg" alt="Sobeck-Khor em chamas">
+                <img src="../../../img/outros/sobeck-khor.jpg" alt="Sobeck-Khor em chamas">
 
-            <p>Você aceitou a trégua e deu as 50 oferendas. Mas com o diabo não se negocia, os orcs voltaram bem depois na calada da noite e inceneraram Sobeck-Khor.</p>
+                <p>Você aceitou a trégua e deu as 50 oferendas. Mas com o diabo não se negocia, os orcs voltaram bem depois na calada da noite e inceneraram Sobeck-Khor.</p>
 
-        </section>
+            </section>
 
-        <a href="../../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
-        `;
+            <a href="../../../../index.html#personagens" id="gameOverButton"><p>Recomeçar</p></a>
+            `;
 
-        return gameOvercaminhoBemMisterimirFase3;
+            return gameOvercaminhoBemMisterimirFase3;
 
-    } else if (escolhaMisterimirFase3Bem == 2) {
+        } else if (escolhaMisterimirFase3Bem == 2) {
 
-        let sucessoMisterimirFase3 =  document.getElementById("main-container").innerHTML = `
+            let sucessoMisterimirFase3 =  document.getElementById("main-container").innerHTML = `
 
-        <h1>Fase 3 - A Batalha de Sobeck-Khor</h1>
+            <h1>Fase 3 - A Batalha de Sobeck-Khor</h1>
 
-        <section id="content">
+            <section id="content">
 
-        <img src="../../../img/personagens/tar-goroth.jpg" alt="Tar Goroth">
+            <img src="../../../img/personagens/tar-goroth.jpg" alt="Tar Goroth">
 
-        <p>"Trégua de cu é rola!", grita Ironmir. E uma feroz batalha se inicia. Aliadaos e inimigos sucumbem. Misterimir, Ironmir e alguns soldados ainda estavam de pé, quando o trunfo dos ocs aparece: Tar Goroth, antigo general de Morgoth na Primeira Era.</p>
+            <p>"Trégua de cu é rola!", grita Ironmir. E uma feroz batalha se inicia. Aliadaos e inimigos sucumbem. Misterimir, Ironmir e alguns soldados ainda estavam de pé, quando o trunfo dos ocs aparece: Tar Goroth, antigo general de Morgoth na Primeira Era.</p>
 
-        </section>
+            </section>
 
-        <button onclick="proximaFaseMisterimirFase3Bem()"><p>Próxima Fase</p></button>
+            <button onclick="proximaFaseMisterimirFase3Bem()"><p>Próxima Fase</p></button>
 
-        `;
-        return sucessoMisterimirFase3;
+            `;
+            return sucessoMisterimirFase3;
 
-    } else {
-        alert('Opção invalida, escolha denovo')
-        
+        } else {
+            alert('Opção invalida, escolha denovo')
+            
+        }
     }
    
 }
