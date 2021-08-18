@@ -1,7 +1,7 @@
 function escolhaMisterimirFase2Mal () {
 
     while(true) {
-        var escolhaMisterimirFase2Mal = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Lutar sozinho \n 2 - Lutar juntos dos Nazgul')
+        var escolhaMisterimirFase2Mal = prompt('Digite sua escolha (Digite apenas o número): \n 1 - Lutar sozinho \n 2 - Lutar junto dos Nazgul')
 
         if (escolhaMisterimirFase2Mal == 1) {
 
@@ -12,7 +12,7 @@ function escolhaMisterimirFase2Mal () {
             <section id="content">
                 <img src="../../../img/outros/talion-mata-nazgul.jpg" alt="Talion mata nazgul.jpg">
 
-                <p>Misterimir é forte, mas Talio veio muito mais poderoso. Não foi dessa vez, você morreu</p>
+                <p>Misterimir é forte, mas Talion veio muito mais poderoso. Não foi dessa vez, você morreu.</p>
 
             </section>
 
