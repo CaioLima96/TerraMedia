@@ -59,7 +59,7 @@ function parte2MisterimirFase2Bem() {
 
         <img src="../../../img/outros/reforco-orc.jpg" alt="Reforço orc">
 
-        <p>"É difícil liderar uma cidade, ainda mais com orcs como inimigos. Obrigado pela ajuda, forasteiro.", disse Irondir. Enquanto os ajudavam os feridos ali presentes, mais inimigos chegam... e oferecendo trégua.</p>
+        <p>"É difícil liderar uma cidade, ainda mais com orcs como inimigos. Obrigado pela ajuda, forasteiro.", disse Irondir. Enquanto eles ajudavam os feridos ali presentes, mais inimigos chegam... e oferecendo trégua.</p>
 
     </section>
 

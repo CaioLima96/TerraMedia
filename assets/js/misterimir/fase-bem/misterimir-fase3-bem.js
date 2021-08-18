@@ -32,7 +32,7 @@ function escolhaMisterimirFase3Bem () {
 
             <img src="../../../img/personagens/tar-goroth.jpg" alt="Tar Goroth">
 
-            <p>"Trégua de cu é rola!", grita Ironmir. E uma feroz batalha se inicia. Aliadaos e inimigos sucumbem. Misterimir, Ironmir e alguns soldados ainda estavam de pé, quando o trunfo dos ocs aparece: Tar Goroth, antigo general de Morgoth na Primeira Era.</p>
+            <p>"Trégua de cu é rola!", grita Ironmir. E uma feroz batalha se inicia. Aliados e inimigos sucumbem. Misterimir, Ironmir e alguns soldados ainda estavam de pé, quando o trunfo dos ocs aparece: Tar Goroth, antigo general de Morgoth na Primeira Era.</p>
 
             </section>
 
