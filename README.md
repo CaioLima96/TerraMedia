@@ -6,5 +6,3 @@
 <br>
 
 [<h3 align="center">Jogue</h3>](https://terramedia.netlify.app/)
-
-<a href="https://terramedia.netlify.app/" target="_blank"><h3 align="center" >Jogue!</h3></a>
